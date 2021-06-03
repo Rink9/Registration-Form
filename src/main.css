@@ -1,0 +1,32 @@
+body {
+    font-family : "dosis";
+    background :#EDE9FE;
+}
+.card {
+    background: white;
+    margin : 80px;
+    padding: 12px 38px 64px 38px;
+    border-radius: 10px;
+    -webkit-box-shadow: 1px 6px 14px 3px rgba(156, 163, 175, 0.77);
+    box-shadow: 1px 6px 14px 3px rgba(156, 163, 175, 0.77);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    }
+ .title {
+        text-align: center;
+        color: #374151;
+    }
+    .form input {
+        padding: 9px 18px;
+        border-radius: 8px;
+        border: 1px solid #A78BFA;
+        font-size:17px;
+        font-family : "dosis";
+        outline:none;
+    }
+    
+    .form input:focus{
+        border: 1px solid #FBBF24; 
+    }
