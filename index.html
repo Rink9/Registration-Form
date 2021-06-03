@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,29 +9,33 @@
     <link rel="stylesheet" href="src/main.css">
     <script src="src/main.js"></script>
 </head>
+
 <body>
-    <div class= "card">
-        <h1 class="title">Lets Sign You in!</h1>
-    <div class= "form"> 
-        <label>Name</label>
-        <input name= "name "type="text" class="form-field"/>
-        <br>
-        <lebel>Username</lebel>
-        <input name= "username "type="text" class="form-field"/>
-        <br>
-        <lebel>Email</lebel>
-        <input name= "email"type="email" class="form-field"/>
-        <br>
-        <lebel>Password</lebel>
-        <input name= "password" type="password" class="form-field"/>
-        <br>
-        <button 
-        onclick="submitMessege()" 
-        id="formSubmitted"    
-        > 
-        Send Messege
-        </button>
+    <div class="card">
+        <h1 class="title">Let's Sign You Up!</h1>
+        <div class="form">
+            <div class="inline">
+                <div class="form-group" style="margin-right: 16px;">
+                    <label>Name</label>
+                    <input name="name" type="text" class="form-field" />
+                </div>
+                <div class="form-group">
+                    <label>Username</label>
+                    <input name="username" type="text" class="form-field" />
+                </div>
+            </div>
+            <br>
+            <label>Email</label>
+            <input name="email" type="email" class="form-field" />
+            <br>
+            <label>Password</label>
+            <input name="password" type="password" class="form-field" />
+            <br>
+            <button>
+                Create Account
+            </button>
+        </div>
     </div>
-</div>
 </body>
+
 </html>
